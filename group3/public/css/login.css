@@ -1,0 +1,161 @@
+.body {
+  background: #98ccd3;
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #ebf0f6;
+}
+
+.warp {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.login-box {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 30%;
+  padding: 40px 50px 20px 50px;
+  border: 1px solid black;
+}
+
+.login-title {
+  font-family: Georgia;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.email-box,
+.password-box,
+.login-button {
+  padding-top: 5%;
+}
+
+.email-box input,
+.password-box input {
+  width: 100%;
+  padding: 5px;
+  background-color: #364e68;
+  color: #ebf0f6;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: #ebf0f6;
+}
+
+.login-button {
+  width: 100px;
+  padding-top: 2px;
+  margin-left: 40%;
+  margin-top: 20px;
+  background-color: #364e68;
+  color: #ebf0f6;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.login-comment {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.dropbtn {
+  background-color: #132238;
+  color: #ebf068;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #132238;
+  border-radius: 2rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  width: 60px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 2rem;
+}
+
+.dropdown-content a {
+  color: #132238;
+  padding: 10%;
+  text-decoration: none;
+  display: block;
+  border-radius: 2rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #132238;
+  color: #ebf068;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ebf068;
+  color: #132238;
+  border: 1px solid #ebf068;
+}
+
+.show-pwd {
+  width: 5% !important;
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 640px) and (max-width:768px){
+  .login-box{
+    width: 35%;
+  }
+  .login-button {
+    margin-left: 32%;
+    width: 40%;
+  }
+  
+}
+
+@media screen and (max-width: 640px){
+  .warp {
+    padding: 44% 0;
+  }
+  .login-box{
+    width: 80%;
+    padding: 7%;
+  }
+  .login-title {
+    font-size: 5vw;
+  }
+  .email-box input, .password-box input {
+    font-size: 4.1vw;
+    margin-left: -6px;
+    border: none;
+  }
+  .login-button {
+    margin-left: 28%;
+    margin-top: 5%;
+    width: 50%;
+    padding: 5px;
+    font-size: 4.1vw;
+  }
+  .login-comment p {
+    font-size: 3.5vw;
+    padding-top: 4%;
+  }
+}
