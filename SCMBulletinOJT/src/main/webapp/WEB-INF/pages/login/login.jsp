@@ -57,7 +57,7 @@
         <div class="row">
           <div class="col-12">
             <button type="submit" class="btn btn-info btn-block"
-              id="LoginID" name="login">Sign In</button>
+              id="LoginID" name="login">Sign In Sing In</button>
           </div>
         </div>
       </form:form>
