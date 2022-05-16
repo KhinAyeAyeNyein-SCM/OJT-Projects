@@ -1,0 +1,9 @@
+ojt\student\crud\bl\service\student\StudentService.class
+ojt\student\crud\web\interceptors\AuthenticationInterceptor.class
+ojt\student\crud\persistencee\entity\Student.class
+ojt\student\crud\web\interceptors\AuthorizationInterceptor.class
+ojt\student\crud\bl\service\student\impl\StudentServiceImpl.class
+ojt\student\crud\persistencee\dao\student\StudentDao.class
+ojt\student\crud\web\controller\student\StudentController.class
+ojt\student\crud\persistencee\dao\student\impl\StudentDaoImpl.class
+ojt\student\crud\web\form\StudentForm.class

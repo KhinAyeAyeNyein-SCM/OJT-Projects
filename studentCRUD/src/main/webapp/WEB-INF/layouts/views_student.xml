@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- studentList Page -->
+    <definition name="studentList" extends="template1">
+        <put-attribute name="title" value="StudentList" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/student/list/studentList.jsp" />
+    </definition>
+    <!-- createStudent -->
+    <definition name="createStudent" extends="template1">
+        <put-attribute name="title" value="createStudent" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/student/create/createStudent.jsp" />
+    </definition>
+    <!-- createStudentConfirm Page -->
+    <definition name="createStudentConfirm"
+        extends="template1">
+        <put-attribute name="title"
+            value="createStudentConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/student/create/createStudentConfirm.jsp" />
+    </definition>
+    <!-- UpdateStudent Page -->
+    <definition name="updateStudent" extends="template1">
+        <put-attribute name="title" value="updateStudent" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/student/update/updateStudent.jsp" />
+    </definition>
+    <!-- UpdateStudentConfirm Page -->
+    <definition name="updateStudentConfirm" extends="template1">
+        <put-attribute name="title"
+            value="updateStudentConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/student/update/updateStudentConfirm.jsp" />
+    </definition>
+</tiles-definitions>
